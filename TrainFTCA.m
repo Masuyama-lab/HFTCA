@@ -248,7 +248,7 @@ for d = find(NewEdgedNode == 1) % Search only new edged nodes
                 for k = 1:size(node2,2)
                     posY2 = weight(node2(k),:); % position of k-th neighbor node of h-th node
                     isConvex = findIntersection(posX1, posY1, posX2, posY2); % find intersections
-                    if isConvex == 1 % If intersection is exist, delete edge which has larger CIM.
+                    if isConvex == 1 % If an intersection exists, delete edge which has larger CIM.
                         cim1 = CIM(weight(d,:), weight(node1(m),:), sigma);
                         cim2 = CIM(weight(target2,:), weight(node2(k),:), sigma);
                         if cim2 >= cim1
