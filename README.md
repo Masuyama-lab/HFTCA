@@ -8,4 +8,4 @@ Divisive Hierarchical Clustering Based on Adaptive Resonance Theory,
 Proc. of 2020 International Symposium on Community-centric Systems (CcS 2020), 
 pp. 1-6, Tokyo, Japan, September 23-26, 2020."
 
-Please contact "masuyama@cs.osakafu-u.ac.jp" if you have any problems.
+Please contact masuyama@omu.ac.jp if you have any problems.
